@@ -2,7 +2,7 @@
 BaublesReborn
 =============
 
-This is a port of `Baubles`_ created by `Azanor`_ to minecraft
+This is a port of `Baubles`_ created by `Azanor`_ 
 
 .. _Baubles: https://github.com/Azanor/Baubles
 .. _Azanor: https://github.com/Azanor/
