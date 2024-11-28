@@ -1,8 +1,6 @@
 package io.babywolf.forge.event;
 
 import io.babywolf.forge.BaublesRebornMod;
-import io.babywolf.forge.api.BaublesAPI;
-import io.babywolf.forge.api.bauble.IBauble;
 import io.babywolf.forge.api.bauble.IBaublesItemHandler;
 import io.babywolf.forge.api.cap.CapabilityBaubles;
 import io.babywolf.forge.capability.BaublesContainer;
@@ -21,7 +19,6 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.network.PacketDistributor;

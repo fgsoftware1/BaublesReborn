@@ -1,7 +1,6 @@
 package io.babywolf.forge.client.gui.overlay;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import io.babywolf.forge.api.bauble.BaubleType;
 import io.babywolf.forge.api.cap.CapabilityBaubles;
 import io.babywolf.forge.setup.ModConfigs;
 import net.minecraft.client.Minecraft;

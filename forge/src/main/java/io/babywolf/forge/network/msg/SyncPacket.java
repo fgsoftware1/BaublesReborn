@@ -10,7 +10,6 @@ import net.minecraftforge.network.NetworkEvent;
 import java.util.function.Supplier;
 
 public class SyncPacket {
-
     private final int playerId;
     private final byte slot;
     private final ItemStack bauble;

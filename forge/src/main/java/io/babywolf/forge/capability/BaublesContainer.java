@@ -58,7 +58,7 @@ public class BaublesContainer extends ItemStackHandler implements IBaublesItemHa
 
     @Override
     public boolean isEventBlocked() {
-        return this.blockEvents;
+        return !this.blockEvents;
     }
 
     @Override

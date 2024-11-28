@@ -10,6 +10,9 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import org.jetbrains.annotations.NotNull;
 
 public class ItemRing extends Item implements IBauble {
     public ItemRing(Properties properties) {
@@ -22,21 +25,21 @@ public class ItemRing extends Item implements IBauble {
     }
 
     @Override
-    public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
-        if (world.isClientSide) {
-            IBaublesItemHandler baubles = (IBaublesItemHandler) BaublesAPI.getBaublesHandler(player);
-            for (int i = 0; i < baubles.getSlots(); i++) {
-                baubles.getStackInSlot(i);
-                if (baubles.getStackInSlot(i).isEmpty() && baubles.isItemValidForSlot(i, player.getItemInHand(hand))) {
-                    baubles.setStackInSlot(i, player.getItemInHand(hand).copy());
-                    if (!player.isCreative()) {
-                        player.getInventory().canPlaceItem(player.getInventory().selected, ItemStack.EMPTY);
-                    }
-                    onEquipped(player, player.getItemInHand(hand));
-                    break;
+    @OnlyIn(Dist.CLIENT)
+    public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level world, @NotNull Player player, @NotNull InteractionHand hand) {
+        IBaublesItemHandler baubles = (IBaublesItemHandler) BaublesAPI.getBaublesHandler(player);
+        for (int i = 0; i < baubles.getSlots(); i++) {
+            baubles.getStackInSlot(i);
+            if (baubles.getStackInSlot(i).isEmpty() && baubles.isItemValidForSlot(i, player.getItemInHand(hand))) {
+                baubles.setStackInSlot(i, player.getItemInHand(hand).copy());
+                if (!player.isCreative()) {
+                    player.getInventory().canPlaceItem(player.getInventory().selected, ItemStack.EMPTY);
                 }
+                onEquipped(player, player.getItemInHand(hand));
+                break;
             }
         }
+
         return InteractionResultHolder.pass(player.getItemInHand(hand));
     }
 }

@@ -1,83 +1,1991 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac"/>
     <resourceExtensions>
-      <entry name=".+\.(properties|xml|html|dtd|tld)"/>
-      <entry name=".+\.(gif|png|jpeg|jpg)"/>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
     </resourceExtensions>
     <wildcardResourcePatterns>
-      <entry name="!?*.class"/>
-      <entry name="!?*.scala"/>
-      <entry name="!?*.groovy"/>
-      <entry name="!?*.java"/>
+      <entry name="!?*.class" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.java" />
     </wildcardResourcePatterns>
-    <annotationProcessing enabled="false" useClasspath="true"/>
-    <bytecodeTargetLevel target="17"/>
+    <bytecodeTargetLevel target="17" />
   </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright/>
-  </component>
+  <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
-    <option name="SKIP_IMPORT_STATEMENTS" value="false"/>
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false"/>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/fabric" />
+            <option value="$PROJECT_DIR$/forge" />
+            <option value="$PROJECT_DIR$/quilt" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+    <option name="parallelModelFetch" value="true" />
+  </component>
   <component name="GradleUISettings">
-    <setting name="root"/>
+    <setting name="root" />
   </component>
   <component name="GradleUISettings2">
-    <setting name="root"/>
+    <setting name="root" />
   </component>
-  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C"/>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
   <component name="JavadocGenerationManager">
-    <option name="OUTPUT_DIRECTORY"/>
-    <option name="OPTION_SCOPE" value="protected"/>
-    <option name="OPTION_HIERARCHY" value="true"/>
-    <option name="OPTION_NAVIGATOR" value="true"/>
-    <option name="OPTION_INDEX" value="true"/>
-    <option name="OPTION_SEPARATE_INDEX" value="true"/>
-    <option name="OPTION_DOCUMENT_TAG_USE" value="false"/>
-    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false"/>
-    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false"/>
-    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true"/>
-    <option name="OPTION_DEPRECATED_LIST" value="true"/>
-    <option name="OTHER_OPTIONS" value=""/>
-    <option name="HEAP_SIZE"/>
-    <option name="LOCALE"/>
-    <option name="OPEN_IN_BROWSER" value="true"/>
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/baublesreborn.iml" filepath="$PROJECT_DIR$/baublesreborn.iml"/>
-      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml"/>
-      <module fileurl="file://$PROJECT_DIR$/fabric/fabric.iml" filepath="$PROJECT_DIR$/fabric/fabric.iml"/>
-      <module fileurl="file://$PROJECT_DIR$/forge/forge.iml" filepath="$PROJECT_DIR$/forge/forge.iml"/>
-      <module fileurl="file://$PROJECT_DIR$/quilt/quilt.iml" filepath="$PROJECT_DIR$/quilt/quilt.iml"/>
+      <module fileurl="file://$PROJECT_DIR$/baublesreborn.iml" filepath="$PROJECT_DIR$/baublesreborn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/baublesreborn.common.iml" filepath="$PROJECT_DIR$/common/baublesreborn.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/baublesreborn.common.main.iml" filepath="$PROJECT_DIR$/common/baublesreborn.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/baublesreborn.common.test.iml" filepath="$PROJECT_DIR$/common/baublesreborn.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabric/baublesreborn.fabric.iml" filepath="$PROJECT_DIR$/fabric/baublesreborn.fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabric/baublesreborn.fabric.main.iml" filepath="$PROJECT_DIR$/fabric/baublesreborn.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabric/baublesreborn.fabric.test.iml" filepath="$PROJECT_DIR$/fabric/baublesreborn.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge/baublesreborn.forge.iml" filepath="$PROJECT_DIR$/forge/baublesreborn.forge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge/baublesreborn.forge.main.iml" filepath="$PROJECT_DIR$/forge/baublesreborn.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge/baublesreborn.forge.test.iml" filepath="$PROJECT_DIR$/forge/baublesreborn.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quilt/baublesreborn.quilt.iml" filepath="$PROJECT_DIR$/quilt/baublesreborn.quilt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quilt/baublesreborn.quilt.main.iml" filepath="$PROJECT_DIR$/quilt/baublesreborn.quilt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quilt/baublesreborn.quilt.test.iml" filepath="$PROJECT_DIR$/quilt/baublesreborn.quilt.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/io.babywolf.baublesreborn.common.main.iml" filepath="$PROJECT_DIR$/common/io.babywolf.baublesreborn.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/io.babywolf.baublesreborn.common.test.iml" filepath="$PROJECT_DIR$/common/io.babywolf.baublesreborn.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabric/io.babywolf.baublesreborn.fabric.test.iml" filepath="$PROJECT_DIR$/fabric/io.babywolf.baublesreborn.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge/io.babywolf.baublesreborn.forge.test.iml" filepath="$PROJECT_DIR$/forge/io.babywolf.baublesreborn.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quilt/io.babywolf.baublesreborn.quilt.test.iml" filepath="$PROJECT_DIR$/quilt/io.babywolf.baublesreborn.quilt.test.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" assert-keyword="true" jdk-15="true" project-jdk-type="JavaSDK" assert-jdk-15="true" project-jdk-name="21">
-    <output url="file://$PROJECT_DIR$/out"/>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
-    <option name="mySupportsUserInfoFilter" value="true"/>
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs=""/>
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: com.electronwill.night-config:core:3.6.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.electronwill.night-config" artifactId="core" version="3.6.4" baseVersion="3.6.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.6.4/510f174abbf1c947494db50ef2445683bd52c230/core-3.6.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.electronwill.night-config:toml:3.6.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.electronwill.night-config" artifactId="toml" version="3.6.4" baseVersion="3.6.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/toml/3.6.4/51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4/toml-3.6.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.github.oshi:oshi-core:5.8.5" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.github.oshi" artifactId="oshi-core" version="5.8.5" baseVersion="5.8.5" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/5.8.5/1d0ec654d820741327f5a9229d513732a4b7ce50/oshi-core-5.8.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.code.findbugs:jsr305:3.0.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.code.findbugs" artifactId="jsr305" version="3.0.2" baseVersion="3.0.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.code.gson:gson:2.8.9" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.code.gson" artifactId="gson" version="2.8.9" baseVersion="2.8.9" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.errorprone:error_prone_annotations:2.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.errorprone" artifactId="error_prone_annotations" version="2.7.1" baseVersion="2.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/458d9042f7aa6fa9a634df902b37f544e15aacac/error_prone_annotations-2.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.guava:failureaccess:1.0.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.guava" artifactId="failureaccess" version="1.0.1" baseVersion="1.0.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.guava:guava:31.0.1-jre" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.guava" artifactId="guava" version="31.0.1-jre" baseVersion="31.0.1-jre" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-jre/119ea2b2bc205b138974d351777b20f02b92704b/guava-31.0.1-jre.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.guava" artifactId="listenablefuture" version="9999.0-empty-to-avoid-conflict-with-guava" baseVersion="9999.0-empty-to-avoid-conflict-with-guava" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.j2objc:j2objc-annotations:1.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.google.j2objc" artifactId="j2objc-annotations" version="1.3" baseVersion="1.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.ibm.icu:icu4j:70.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.ibm.icu" artifactId="icu4j" version="70.1" baseVersion="70.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/70.1/dfa3a1fbc55bf5db8c6e79fc0935ac7ab1202950/icu4j-70.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.machinezoo.noexception:noexception:1.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.machinezoo.noexception" artifactId="noexception" version="1.7.1" baseVersion="1.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.machinezoo.noexception/noexception/1.7.1/b65330c98e38a1f915fa54a6e5eca496505e3f0a/noexception-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:authlib:3.3.39" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="authlib" version="3.3.39" baseVersion="3.3.39" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.3.39/289405e70c0917eaeac017f7fba9adb4427baa36/authlib-3.3.39.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:blocklist:1.0.10" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="blocklist" version="1.0.10" baseVersion="1.0.10" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:brigadier:1.0.18" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="brigadier" version="1.0.18" baseVersion="1.0.18" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/c1ef1234282716483c92183f49bef47b1a89bfa9/brigadier-1.0.18.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:datafixerupper:4.1.27" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="datafixerupper" version="4.1.27" baseVersion="4.1.27" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.1.27/a02c43824ce57c3f7a7d7e744f0d99a040398b5/datafixerupper-4.1.27.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:javabridge:1.2.24" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="javabridge" version="1.2.24" baseVersion="1.2.24" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/c876796229b2ef5120f186eab5acc870699d3b9/javabridge-1.2.24.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:logging:1.0.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="logging" version="1.0.0" baseVersion="1.0.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/logging/1.0.0/f6ca3b2eee0b80b384e8ed93d368faecb82dfb9b/logging-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:patchy:2.2.10" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="patchy" version="2.2.10" baseVersion="2.2.10" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/2.2.10/da05971b07cbb379d002cf7eaec6a2048211fefc/patchy-2.2.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.mojang:text2speech:1.12.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="com.mojang" artifactId="text2speech" version="1.12.4" baseVersion="1.12.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.12.4/1f618f522dbdd93218c270bcfd8f8dd84be31717/text2speech-1.12.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-codec:commons-codec:1.15" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="commons-codec" artifactId="commons-codec" version="1.15" baseVersion="1.15" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-io:commons-io:2.11.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="commons-io" artifactId="commons-io" version="2.11.0" baseVersion="2.11.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: commons-logging:commons-logging:1.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="commons-logging" artifactId="commons-logging" version="1.2" baseVersion="1.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: cpw.mods:bootstraplauncher:1.0.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="cpw.mods" artifactId="bootstraplauncher" version="1.0.0" baseVersion="1.0.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cpw.mods/bootstraplauncher/1.0.0/f55ddbb35612c6745cefc47d1a0d6dbfb25d3982/bootstraplauncher-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: cpw.mods:modlauncher:9.1.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="cpw.mods" artifactId="modlauncher" version="9.1.3" baseVersion="9.1.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cpw.mods/modlauncher/9.1.3/7339d0e87813c366d706c3fdba479455e2283ecd/modlauncher-9.1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: cpw.mods:securejarhandler:1.0.8" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="cpw.mods" artifactId="securejarhandler" version="1.0.8" baseVersion="1.0.8" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.8/94c7b14c960e1b6cb37337d81ad4ec5932f7595c/securejarhandler-1.0.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:architectury-injectables:1.0.10" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="architectury-injectables" version="1.0.10" baseVersion="1.0.10" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:architectury-mixin-remapper-service:2.0.9" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="architectury-mixin-remapper-service" version="2.0.9" baseVersion="2.0.9" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-mixin-remapper-service/2.0.9/eede5ef35349f2b295fe1f3e7579382d26784b24/architectury-mixin-remapper-service-2.0.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:architectury-naming-service:2.0.9" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="architectury-naming-service" version="2.0.9" baseVersion="2.0.9" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-naming-service/2.0.9/c4c4732b3a00b67523c3028b49af402402be7883/architectury-naming-service-2.0.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:architectury-transformer:agent:5.2.87" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="architectury-transformer" version="5.2.87" baseVersion="5.2.87" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-transformer/5.2.87/c81d58e13fbd902ba5d909126733b9e3771c4395/architectury-transformer-5.2.87-agent.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:architectury-transformer:runtime:5.2.87" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="architectury-transformer" version="5.2.87" baseVersion="5.2.87" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-transformer/5.2.87/980814ce433a3396de4495194f027dfecc94bb3a/architectury-transformer-5.2.87-runtime.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:mcp-annotations:2.0.9" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="mcp-annotations" version="2.0.9" baseVersion="2.0.9" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/mcp-annotations/2.0.9/84f3d1e27805912592af0289d6fce0be53ee689a/mcp-annotations-2.0.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: dev.architectury:mixin-patched:0.8.5.11" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="dev.architectury" artifactId="mixin-patched" version="0.8.5.11" baseVersion="0.8.5.11" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.11/dd886ad7af30604cbd9aa0f1eb9fb95b079013ca/mixin-patched-0.8.5.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: io.github.juuxel:unprotect:1.2.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="io.github.juuxel" artifactId="unprotect" version="1.2.0" baseVersion="1.2.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.juuxel/unprotect/1.2.0/49cc229a0469f28fae41593a9537743ac6a951dc/unprotect-1.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: io.github.llamalad7:mixinextras-fabric:0.4.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="io.github.llamalad7" artifactId="mixinextras-fabric" version="0.4.1" baseVersion="0.4.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-fabric/0.4.1/8d1a9e96afb990367fa1f904d17580d164da72e3/mixinextras-fabric-0.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: io.netty:netty-all:4.1.68.Final" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="io.netty" artifactId="netty-all" version="4.1.68.Final" baseVersion="4.1.68.Final" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.68.Final/b8266a3c93c1c051109f71d3449e5dcd5d60b333/netty-all-4.1.68.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: it.unimi.dsi:fastutil:8.5.6" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="it.unimi.dsi" artifactId="fastutil" version="8.5.6" baseVersion="8.5.6" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.6/76f95700418a68fbc4ac050525261f05dc681ca1/fastutil-8.5.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.dev.architectury:architectury-fabric:4.12.94" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.dev.architectury" artifactId="architectury-fabric" version="4.12.94" baseVersion="4.12.94" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/dev/architectury/architectury-fabric/4.12.94/architectury-fabric-4.12.94.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.dev.architectury:architectury:4.12.94" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.dev.architectury" artifactId="architectury" version="4.12.94" baseVersion="4.12.94" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/dev/architectury/architectury/4.12.94/architectury-4.12.94.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.5+64b7c69360" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-api-base" version="0.4.5+64b7c69360" baseVersion="0.4.5+64b7c69360" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.5+64b7c69360/fabric-api-base-0.4.5+64b7c69360.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.3+2373a54560" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-api-lookup-api-v1" version="1.6.3+2373a54560" baseVersion="1.6.3+2373a54560" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.3+2373a54560/fabric-api-lookup-api-v1-1.6.3+2373a54560.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-api:0.77.0+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-api" version="0.77.0+1.18.2" baseVersion="0.77.0+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-api/0.77.0+1.18.2/fabric-api-0.77.0+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:8.0.7+e83becad60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-biome-api-v1" version="8.0.7+e83becad60" baseVersion="8.0.7+e83becad60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/8.0.7+e83becad60/fabric-biome-api-v1-8.0.7+e83becad60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.0+ee3621fc60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-block-api-v1" version="1.0.0+ee3621fc60" baseVersion="1.0.0+ee3621fc60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-block-api-v1/1.0.0+ee3621fc60/fabric-block-api-v1-1.0.0+ee3621fc60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.13+3ac43d9560" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-blockrenderlayer-v1" version="1.1.13+3ac43d9560" baseVersion="1.1.13+3ac43d9560" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.13+3ac43d9560/fabric-blockrenderlayer-v1-1.1.13+3ac43d9560.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.1.10+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-command-api-v1" version="1.1.10+d7c144a860" baseVersion="1.1.10+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.1.10+d7c144a860/fabric-command-api-v1-1.1.10+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.9+b4f4f6cd60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-commands-v0" version="0.2.9+b4f4f6cd60" baseVersion="0.2.9+b4f4f6cd60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-commands-v0/0.2.9+b4f4f6cd60/fabric-commands-v0-0.2.9+b4f4f6cd60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.24+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-containers-v0" version="0.1.24+d7c144a860" baseVersion="0.1.24+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-containers-v0/0.1.24+d7c144a860/fabric-containers-v0-0.1.24+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:3.1.3+c85f2e3860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-content-registries-v0" version="3.1.3+c85f2e3860" baseVersion="3.1.3+c85f2e3860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/3.1.3+c85f2e3860/fabric-content-registries-v0-3.1.3+c85f2e3860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.1.0+43ce63a460" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-convention-tags-v1" version="1.1.0+43ce63a460" baseVersion="1.1.0+43ce63a460" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.1.0+43ce63a460/fabric-convention-tags-v1-1.1.0+43ce63a460.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.1+ee261a3e60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-crash-report-info-v1" version="0.2.1+ee261a3e60" baseVersion="0.2.1+ee261a3e60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1/0.2.1+ee261a3e60/fabric-crash-report-info-v1-0.2.1+ee261a3e60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:3.1.0+6c70b68e60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-data-generation-api-v1" version="3.1.0+6c70b68e60" baseVersion="3.1.0+6c70b68e60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/3.1.0+6c70b68e60/fabric-data-generation-api-v1-3.1.0+6c70b68e60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.21+489d6f8260" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-dimensions-v1" version="2.1.21+489d6f8260" baseVersion="2.1.21+489d6f8260" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.21+489d6f8260/fabric-dimensions-v1-2.1.21+489d6f8260.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.4.9+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-entity-events-v1" version="1.4.9+d7c144a860" baseVersion="1.4.9+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.4.9+d7c144a860/fabric-entity-events-v1-1.4.9+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.4.20+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-events-interaction-v0" version="0.4.20+d7c144a860" baseVersion="0.4.20+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.4.20+d7c144a860/fabric-events-interaction-v0-0.4.20+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.22+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-events-lifecycle-v0" version="0.2.22+d7c144a860" baseVersion="0.2.22+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.22+d7c144a860/fabric-events-lifecycle-v0-0.2.22+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.13+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-game-rule-api-v1" version="1.0.13+d7c144a860" baseVersion="1.0.13+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1/1.0.13+d7c144a860/fabric-game-rule-api-v1-1.0.13+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.0.21+91b7aa6660" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-gametest-api-v1" version="1.0.21+91b7aa6660" baseVersion="1.0.21+91b7aa6660" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.0.21+91b7aa6660/fabric-gametest-api-v1-1.0.21+91b7aa6660.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-item-api-v1:1.6.2+8165403660" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-item-api-v1" version="1.6.2+8165403660" baseVersion="1.6.2+8165403660" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-item-api-v1/1.6.2+8165403660/fabric-item-api-v1-1.6.2+8165403660.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-item-groups-v0:0.3.16+91896a4960" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-item-groups-v0" version="0.3.16+91896a4960" baseVersion="0.3.16+91896a4960" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-item-groups-v0/0.3.16+91896a4960/fabric-item-groups-v0-0.3.16+91896a4960.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.12+54e5b2ec60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-key-binding-api-v1" version="1.0.12+54e5b2ec60" baseVersion="1.0.12+54e5b2ec60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1/1.0.12+54e5b2ec60/fabric-key-binding-api-v1-1.0.12+54e5b2ec60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.10+b4f4f6cd60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-keybindings-v0" version="0.2.10+b4f4f6cd60" baseVersion="0.2.10+b4f4f6cd60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-keybindings-v0/0.2.10+b4f4f6cd60/fabric-keybindings-v0-0.2.10+b4f4f6cd60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.1.1+cc71601c60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-lifecycle-events-v1" version="2.1.1+cc71601c60" baseVersion="2.1.1+cc71601c60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.1.1+cc71601c60/fabric-lifecycle-events-v1-2.1.1+cc71601c60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.2+1997ad1260" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-loot-api-v2" version="1.1.2+1997ad1260" baseVersion="1.1.2+1997ad1260" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-loot-api-v2/1.1.2+1997ad1260/fabric-loot-api-v2-1.1.2+1997ad1260.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-loot-tables-v1:1.1.4+e747827960" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-loot-tables-v1" version="1.1.4+e747827960" baseVersion="1.1.4+e747827960" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-loot-tables-v1/1.1.4+e747827960/fabric-loot-tables-v1-1.1.4+e747827960.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.6+cc71601c60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-mining-level-api-v1" version="2.1.6+cc71601c60" baseVersion="2.1.6+cc71601c60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/2.1.6+cc71601c60/fabric-mining-level-api-v1-2.1.6+cc71601c60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-models-v0:0.3.7+d7c144a860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-models-v0" version="0.3.7+d7c144a860" baseVersion="0.3.7+d7c144a860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-models-v0/0.3.7+d7c144a860/fabric-models-v0-0.3.7+d7c144a860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.0.24+2d30af4b60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-networking-api-v1" version="1.0.24+2d30af4b60" baseVersion="1.0.24+2d30af4b60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.0.24+2d30af4b60/fabric-networking-api-v1-1.0.24+2d30af4b60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-networking-v0:0.3.11+b4f4f6cd60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-networking-v0" version="0.3.11+b4f4f6cd60" baseVersion="0.3.11+b4f4f6cd60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-networking-v0/0.3.11+b4f4f6cd60/fabric-networking-v0-0.3.11+b4f4f6cd60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:2.1.5+032c981d60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-object-builder-api-v1" version="2.1.5+032c981d60" baseVersion="2.1.5+032c981d60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/2.1.5+032c981d60/fabric-object-builder-api-v1-2.1.5+032c981d60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-particles-v1:0.2.13+526dc1ac60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-particles-v1" version="0.2.13+526dc1ac60" baseVersion="0.2.13+526dc1ac60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-particles-v1/0.2.13+526dc1ac60/fabric-particles-v1-0.2.13+526dc1ac60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:0.9.12+bb2e047760" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-registry-sync-v0" version="0.9.12+bb2e047760" baseVersion="0.9.12+bb2e047760" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/0.9.12+bb2e047760/fabric-registry-sync-v0-0.9.12+bb2e047760.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:0.5.0+bf48649860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-renderer-api-v1" version="0.5.0+bf48649860" baseVersion="0.5.0+bf48649860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/0.5.0+bf48649860/fabric-renderer-api-v1-0.5.0+bf48649860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:0.6.1+03e2b68760" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-renderer-indigo" version="0.6.1+03e2b68760" baseVersion="0.6.1+03e2b68760" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/0.6.1+03e2b68760/fabric-renderer-indigo-0.6.1+03e2b68760.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.13+b4f4f6cd60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-renderer-registries-v1" version="3.2.13+b4f4f6cd60" baseVersion="3.2.13+b4f4f6cd60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-renderer-registries-v1/3.2.13+b4f4f6cd60/fabric-renderer-registries-v1-3.2.13+b4f4f6cd60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.9+ee3621fc60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-rendering-data-attachment-v1" version="0.3.9+ee3621fc60" baseVersion="0.3.9+ee3621fc60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.9+ee3621fc60/fabric-rendering-data-attachment-v1-0.3.9+ee3621fc60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:2.0.3+54e5b2ec60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-rendering-fluids-v1" version="2.0.3+54e5b2ec60" baseVersion="2.0.3+54e5b2ec60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/2.0.3+54e5b2ec60/fabric-rendering-fluids-v1-2.0.3+54e5b2ec60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.15+b4f4f6cd60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-rendering-v0" version="1.1.15+b4f4f6cd60" baseVersion="1.1.15+b4f4f6cd60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-rendering-v0/1.1.15+b4f4f6cd60/fabric-rendering-v0-1.1.15+b4f4f6cd60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-rendering-v1:1.11.0+b7f3cf3460" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-rendering-v1" version="1.11.0+b7f3cf3460" baseVersion="1.11.0+b7f3cf3460" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-rendering-v1/1.11.0+b7f3cf3460/fabric-rendering-v1-1.11.0+b7f3cf3460.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.0.3+91b7aa6660" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-resource-conditions-api-v1" version="2.0.3+91b7aa6660" baseVersion="2.0.3+91b7aa6660" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1/2.0.3+91b7aa6660/fabric-resource-conditions-api-v1-2.0.3+91b7aa6660.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.5.3+047a5ecb60" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-resource-loader-v0" version="0.5.3+047a5ecb60" baseVersion="0.5.3+047a5ecb60" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.5.3+047a5ecb60/fabric-resource-loader-v0-0.5.3+047a5ecb60.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:1.0.11+d882b91560" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-screen-api-v1" version="1.0.11+d882b91560" baseVersion="1.0.11+d882b91560" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/1.0.11+d882b91560/fabric-screen-api-v1-1.0.11+d882b91560.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.2.3+1f6558e860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-screen-handler-api-v1" version="1.2.3+1f6558e860" baseVersion="1.2.3+1f6558e860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.2.3+1f6558e860/fabric-screen-handler-api-v1-1.2.3+1f6558e860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-textures-v0:1.0.13+3ac43d9560" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-textures-v0" version="1.0.13+3ac43d9560" baseVersion="1.0.13+3ac43d9560" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-textures-v0/1.0.13+3ac43d9560/fabric-textures-v0-1.0.13+3ac43d9560.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:1.6.4+f4563ac860" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-transfer-api-v1" version="1.6.4+f4563ac860" baseVersion="1.6.4+f4563ac860" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/1.6.4+f4563ac860/fabric-transfer-api-v1-1.6.4+f4563ac860.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:1.1.0+e747827960" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2.net.fabricmc.fabric-api" artifactId="fabric-transitive-access-wideners-v1" version="1.1.0+e747827960" baseVersion="1.1.0+e747827960" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/1.1.0+e747827960/fabric-transitive-access-wideners-v1-1.1.0+e747827960.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.dev.architectury:architectury-fabric:4.12.94" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.dev.architectury" artifactId="architectury-fabric" version="4.12.94" baseVersion="4.12.94" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/dev/architectury/architectury-fabric/4.12.94/architectury-fabric-4.12.94.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.block:block_entity:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.block" artifactId="block_entity" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/block/block_entity/1.1.0-beta.26+1.18.2/block_entity-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.block:block_extensions:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.block" artifactId="block_extensions" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/block/block_extensions/1.1.0-beta.26+1.18.2/block_extensions-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core:crash_info:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core" artifactId="crash_info" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/core/crash_info/1.1.0-beta.26+1.18.2/crash_info-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core:lifecycle_events:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core" artifactId="lifecycle_events" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/core/lifecycle_events/1.1.0-beta.26+1.18.2/lifecycle_events-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core:networking:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core" artifactId="networking" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/core/networking/1.1.0-beta.26+1.18.2/networking-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core:qsl_base:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core" artifactId="qsl_base" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/core/qsl_base/1.1.0-beta.26+1.18.2/qsl_base-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core:registry:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core" artifactId="registry" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/core/registry/1.1.0-beta.26+1.18.2/registry-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core:resource_loader:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.core" artifactId="resource_loader" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/core/resource_loader/1.1.0-beta.26+1.18.2/resource_loader-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.data:recipe:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.data" artifactId="recipe" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/data/recipe/1.1.0-beta.26+1.18.2/recipe-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.data:registry_entry_attachments:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.data" artifactId="registry_entry_attachments" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/data/registry_entry_attachments/1.1.0-beta.26+1.18.2/registry_entry_attachments-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.data:tags:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.data" artifactId="tags" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/data/tags/1.1.0-beta.26+1.18.2/tags-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.gui:screen:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.gui" artifactId="screen" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/gui/screen/1.1.0-beta.26+1.18.2/screen-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.gui:tooltip:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.gui" artifactId="tooltip" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/gui/tooltip/1.1.0-beta.26+1.18.2/tooltip-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.item:item_group:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.item" artifactId="item_group" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/item/item_group/1.1.0-beta.26+1.18.2/item_group-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.item:item_setting:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.item" artifactId="item_setting" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/item/item_setting/1.1.0-beta.26+1.18.2/item_setting-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.management:client_command:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.management" artifactId="client_command" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/management/client_command/1.1.0-beta.26+1.18.2/client_command-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.management:command:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.management" artifactId="command" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/management/command/1.1.0-beta.26+1.18.2/command-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.misc:datafixerupper:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.misc" artifactId="datafixerupper" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/misc/datafixerupper/1.1.0-beta.26+1.18.2/datafixerupper-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.worldgen:biome:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.worldgen" artifactId="biome" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/worldgen/biome/1.1.0-beta.26+1.18.2/biome-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.worldgen:dimension:1.1.0-beta.26+1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.qsl.worldgen" artifactId="dimension" version="1.1.0-beta.26+1.18.2" baseVersion="1.1.0-beta.26+1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/qsl/worldgen/dimension/1.1.0-beta.26+1.18.2/dimension-1.1.0-beta.26+1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-api-base:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-api-base" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-api-base/1.0.0-beta.28+0.67.0-1.18.2/fabric-api-base-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-api-lookup-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-api-lookup-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-api-lookup-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-api-lookup-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-biome-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-biome-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-biome-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-biome-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-block-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-block-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-block-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-block-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-blockrenderlayer-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-blockrenderlayer-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-blockrenderlayer-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-blockrenderlayer-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-command-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-command-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-command-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-command-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-commands-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-commands-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-commands-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-commands-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-containers-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-containers-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-containers-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-containers-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-content-registries-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-content-registries-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-content-registries-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-content-registries-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-convention-tags-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-convention-tags-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-convention-tags-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-convention-tags-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-crash-report-info-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-crash-report-info-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-crash-report-info-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-crash-report-info-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-data-generation-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-data-generation-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-data-generation-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-data-generation-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-dimensions-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-dimensions-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-dimensions-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-dimensions-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-entity-events-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-entity-events-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-entity-events-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-entity-events-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-events-interaction-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-events-interaction-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-events-interaction-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-events-interaction-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-events-lifecycle-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-events-lifecycle-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-events-lifecycle-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-events-lifecycle-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-game-rule-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-game-rule-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-game-rule-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-game-rule-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-gametest-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-gametest-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-gametest-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-gametest-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-item-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-item-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-item-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-item-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-item-groups-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-item-groups-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-item-groups-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-item-groups-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-key-binding-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-key-binding-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-key-binding-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-key-binding-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-keybindings-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-keybindings-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-keybindings-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-keybindings-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-lifecycle-events-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-lifecycle-events-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-lifecycle-events-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-lifecycle-events-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-loot-api-v2:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-loot-api-v2" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-loot-api-v2/1.0.0-beta.28+0.67.0-1.18.2/fabric-loot-api-v2-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-loot-tables-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-loot-tables-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-loot-tables-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-loot-tables-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-mining-level-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-mining-level-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-mining-level-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-mining-level-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-models-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-models-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-models-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-models-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-networking-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-networking-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-networking-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-networking-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-networking-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-networking-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-networking-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-networking-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-object-builder-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-object-builder-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-object-builder-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-object-builder-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-particles-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-particles-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-particles-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-particles-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-registry-sync-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-registry-sync-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-registry-sync-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-registry-sync-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-renderer-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-renderer-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-renderer-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-indigo:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-renderer-indigo" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-renderer-indigo/1.0.0-beta.28+0.67.0-1.18.2/fabric-renderer-indigo-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-renderer-registries-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-renderer-registries-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-renderer-registries-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-renderer-registries-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-data-attachment-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-rendering-data-attachment-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-rendering-data-attachment-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-rendering-data-attachment-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-fluids-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-rendering-fluids-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-rendering-fluids-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-rendering-fluids-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-rendering-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-rendering-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-rendering-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-rendering-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-rendering-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-rendering-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-rendering-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-resource-conditions-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-resource-conditions-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-resource-conditions-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-resource-conditions-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-resource-loader-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-resource-loader-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-resource-loader-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-resource-loader-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-screen-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-screen-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-screen-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-screen-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-screen-handler-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-screen-handler-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-screen-handler-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-screen-handler-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-textures-v0:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-textures-v0" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-textures-v0/1.0.0-beta.28+0.67.0-1.18.2/fabric-textures-v0-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-transfer-api-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-transfer-api-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-transfer-api-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-transfer-api-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:fabric-transitive-access-wideners-v1:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="fabric-transitive-access-wideners-v1" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/fabric-transitive-access-wideners-v1/1.0.0-beta.28+0.67.0-1.18.2/fabric-transitive-access-wideners-v1-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api:quilted-fabric-api:1.0.0-beta.28+0.67.0-1.18.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt.org.quiltmc.quilted-fabric-api" artifactId="quilted-fabric-api" version="1.0.0-beta.28+0.67.0-1.18.2" baseVersion="1.0.0-beta.28+0.67.0-1.18.2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_arch_quilt_arch_quilt/org/quiltmc/quilted-fabric-api/quilted-fabric-api/1.0.0-beta.28+0.67.0-1.18.2/quilted-fabric-api-1.0.0-beta.28+0.67.0-1.18.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: loom_mappings_1_18_2_layered_hash_1531428493_v2_forge_1_18_2_40_2_21_forge.dev.architectury:architectury-forge:4.12.94" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="loom_mappings_1_18_2_layered_hash_1531428493_v2_forge_1_18_2_40_2_21_forge.dev.architectury" artifactId="architectury-forge" version="4.12.94" baseVersion="4.12.94" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_18_2_layered_hash_1531428493_v2_forge_1_18_2_40_2_21_forge/dev/architectury/architectury-forge/4.12.94/architectury-forge-4.12.94.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.fabricmc:dev-launch-injector:0.2.1+build.8" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.fabricmc" artifactId="dev-launch-injector" version="0.2.1+build.8" baseVersion="0.2.1+build.8" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/dev-launch-injector/0.2.1+build.8/da8bef7e6e2f952da707f282bdb46882a0fce5e3/dev-launch-injector-0.2.1+build.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.fabricmc:fabric-loader:0.16.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.fabricmc" artifactId="fabric-loader" version="0.16.4" baseVersion="0.16.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.4/f00490b00ba8a901827259b7f126c5c31c0a9f09/fabric-loader-0.16.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.16.4/c90049e4a8ec7b8de7583c6ad6803127631ac241/fabric-loader-0.16.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.fabricmc" artifactId="sponge-mixin" version="0.15.3+mixin.0.8.7" baseVersion="0.15.3+mixin.0.8.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.fabricmc" artifactId="sponge-mixin" version="0.15.4+mixin.0.8.7" baseVersion="0.15.4+mixin.0.8.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.java.dev.jna:jna-platform:5.10.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.java.dev.jna" artifactId="jna-platform" version="5.10.0" baseVersion="5.10.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.10.0/fbed7d9669dba47714ad0d4f4454290a997aee69/jna-platform-5.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.java.dev.jna:jna:5.10.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.java.dev.jna" artifactId="jna" version="5.10.0" baseVersion="5.10.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.10.0/7cf4c87dd802db50721db66947aa237d7ad09418/jna-5.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.jodah:typetools:0.8.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.jodah" artifactId="typetools" version="0.8.3" baseVersion="0.8.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.8.3/98f84f353457629e81cc6827224871b1a8faa7af/typetools-0.8.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraft:forge-1.18.2-40.2.21-minecraft-merged:1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraft" artifactId="forge-1.18.2-40.2.21-minecraft-merged" version="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21" baseVersion="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.18.2-40.2.21-minecraft-merged/1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21/forge-1.18.2-40.2.21-minecraft-merged-1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.18.2-40.2.21-minecraft-merged/1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21/forge-1.18.2-40.2.21-minecraft-merged-1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-forge-1.18.2-40.2.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.minecraft:minecraft-merged-297290362f:1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraft" artifactId="minecraft-merged-297290362f" version="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2" baseVersion="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-297290362f/1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2/minecraft-merged-297290362f-1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraft:minecraft-merged-81875dc825:1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraft" artifactId="minecraft-merged-81875dc825" version="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2" baseVersion="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-81875dc825/1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2/minecraft-merged-81875dc825-1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraft:minecraft-merged-e1f03cdaf1:1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-arch-quilt" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraft" artifactId="minecraft-merged-e1f03cdaf1" version="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-arch-quilt" baseVersion="1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-arch-quilt" />
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-e1f03cdaf1/1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-arch-quilt/minecraft-merged-e1f03cdaf1-1.18.2-loom.mappings.1_18_2.layered+hash.1531428493-v2-arch-quilt.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge.6dbebf84b4822495b63784fabdd10268ed96bb3d53d12b2fae617f539a25896f:fmlloader:1.18.2-40.2.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge.6dbebf84b4822495b63784fabdd10268ed96bb3d53d12b2fae617f539a25896f" artifactId="fmlloader" version="1.18.2-40.2.21" baseVersion="1.18.2-40.2.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/net/minecraftforge/6dbebf84b4822495b63784fabdd10268ed96bb3d53d12b2fae617f539a25896f/fmlloader/1.18.2-40.2.21/fmlloader-1.18.2-40.2.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/net/minecraftforge/6dbebf84b4822495b63784fabdd10268ed96bb3d53d12b2fae617f539a25896f/fmlloader/1.18.2-40.2.21/fmlloader-1.18.2-40.2.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.minecraftforge:JarJarFileSystems:0.3.19" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="JarJarFileSystems" version="0.3.19" baseVersion="0.3.19" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/JarJarFileSystems/0.3.19/2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020/JarJarFileSystems-0.3.19.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:JarJarMetadata:0.3.19" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="JarJarMetadata" version="0.3.19" baseVersion="0.3.19" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/JarJarMetadata/0.3.19/83feaa9b770e6ac0e96ee4fc23fa89325c5fe2/JarJarMetadata-0.3.19.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:JarJarSelector:0.3.19" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="JarJarSelector" version="0.3.19" baseVersion="0.3.19" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/JarJarSelector/0.3.19/376cc9c8ea60720cf027c01fc033de915699801c/JarJarSelector-0.3.19.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:accesstransformers:8.0.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="accesstransformers" version="8.0.4" baseVersion="8.0.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/8.0.4/272d240aa73f42195b2a68e2ebd8b701ecf41f63/accesstransformers-8.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:coremods:5.0.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="coremods" version="5.0.3" baseVersion="5.0.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/5.0.3/25795913e9de905b22ccca803fe61e475e999ddf/coremods-5.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:eventbus:5.0.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="eventbus" version="5.0.7" baseVersion="5.0.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/5.0.7/5589e7511c4993054e6a80890618b46ed53519a0/eventbus-5.0.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:fmlcore:1.18.2-40.2.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="fmlcore" version="1.18.2-40.2.21" baseVersion="1.18.2-40.2.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.18.2-40.2.21/2fff7bebefc2a17d48339a2595ece9f8694970b8/fmlcore-1.18.2-40.2.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:forgespi:4.0.15-4.x" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="forgespi" version="4.0.15-4.x" baseVersion="4.0.15-4.x" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/4.0.15-4.x/1d10ffe779684cb20f2b63bdcc030152e47116bb/forgespi-4.0.15-4.x.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:javafmllanguage:1.18.2-40.2.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="javafmllanguage" version="1.18.2-40.2.21" baseVersion="1.18.2-40.2.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.18.2-40.2.21/c6fe3441af3b7980be1ed98298708883124cc3bf/javafmllanguage-1.18.2-40.2.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:lowcodelanguage:1.18.2-40.2.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="lowcodelanguage" version="1.18.2-40.2.21" baseVersion="1.18.2-40.2.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.18.2-40.2.21/37b9f1843f8fe0387c9e7202cc7752d71d9a8b3d/lowcodelanguage-1.18.2-40.2.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:mclanguage:1.18.2-40.2.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="mclanguage" version="1.18.2-40.2.21" baseVersion="1.18.2-40.2.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.18.2-40.2.21/5c1c2d561428e5b162d0b6682f9c8f39141a71f4/mclanguage-1.18.2-40.2.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecraftforge:unsafe:0.2.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecraftforge" artifactId="unsafe" version="0.2.0" baseVersion="0.2.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.2.0/54d7a0a5e8fdb71b973025caa46f341ae5904f39/unsafe-0.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecrell:terminalconsoleappender:1.2.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecrell" artifactId="terminalconsoleappender" version="1.2.0" baseVersion="1.2.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.minecrell:terminalconsoleappender:1.3.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.minecrell" artifactId="terminalconsoleappender" version="1.3.0" baseVersion="1.3.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.3.0/b562e9bb61235c9520e26282cdee71f8f802d1fc/terminalconsoleappender-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="net.sf.jopt-simple" artifactId="jopt-simple" version="5.0.4" baseVersion="5.0.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.abego.treelayout:org.abego.treelayout.core:1.0.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.abego.treelayout" artifactId="org.abego.treelayout.core" version="1.0.3" baseVersion="1.0.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.3/457216e8e6578099ae63667bb1e4439235892028/org.abego.treelayout.core-1.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.antlr:ST4:4.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.antlr" artifactId="ST4" version="4.3" baseVersion="4.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.3/92f2c1ad8d84abcbeead6cf7f2c53a04166293c2/ST4-4.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.antlr:antlr-runtime:3.5.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.antlr" artifactId="antlr-runtime" version="3.5.2" baseVersion="3.5.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.2/cd9cd41361c155f3af0f653009dcecb08d8b4afd/antlr-runtime-3.5.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.antlr:antlr4-runtime:4.9.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.antlr" artifactId="antlr4-runtime" version="4.9.1" baseVersion="4.9.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.1/428664f05d2b7f7b7610204b5aa7c1763f62011a/antlr4-runtime-4.9.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.antlr:antlr4:4.9.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.antlr" artifactId="antlr4" version="4.9.1" baseVersion="4.9.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.9.1/e92af8ab33e428461927b484e90bb155a4f3a052/antlr4-4.9.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.commons:commons-compress:1.21" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.commons" artifactId="commons-compress" version="1.21" baseVersion="1.21" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.commons:commons-lang3:3.12.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.commons" artifactId="commons-lang3" version="3.12.0" baseVersion="3.12.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpclient:4.5.13" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.httpcomponents" artifactId="httpclient" version="4.5.13" baseVersion="4.5.13" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.14" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.httpcomponents" artifactId="httpcore" version="4.4.14" baseVersion="4.4.14" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1/httpcore-4.4.14.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-api:2.17.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.logging.log4j" artifactId="log4j-api" version="2.17.0" baseVersion="2.17.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.0/bbd791e9c8c9421e45337c4fe0a10851c086e36c/log4j-api-2.17.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-api:2.17.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.logging.log4j" artifactId="log4j-api" version="2.17.1" baseVersion="2.17.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.1/d771af8e336e372fb5399c99edabe0919aeaf5b2/log4j-api-2.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-core:2.17.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.logging.log4j" artifactId="log4j-core" version="2.17.0" baseVersion="2.17.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.0/fe6e7a32c1228884b9691a744f953a55d0dd8ead/log4j-core-2.17.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-core:2.17.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.logging.log4j" artifactId="log4j-core" version="2.17.1" baseVersion="2.17.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.1/779f60f3844dadc3ef597976fcb1e5127b1f343d/log4j-core-2.17.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.logging.log4j" artifactId="log4j-slf4j18-impl" version="2.17.0" baseVersion="2.17.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.17.0/bd7f6c0b9224dd214afb4e684957e2349b529a8d/log4j-slf4j18-impl-2.17.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.apache.maven:maven-artifact:3.8.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.apache.maven" artifactId="maven-artifact" version="3.8.1" baseVersion="3.8.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.8.1/114a2dd16c4c568bf0ca57719b83f2685dcc5734/maven-artifact-3.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.checkerframework:checker-qual:3.12.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.checkerframework" artifactId="checker-qual" version="3.12.0" baseVersion="3.12.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.codehaus.plexus:plexus-utils:3.2.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.codehaus.plexus" artifactId="plexus-utils" version="3.2.1" baseVersion="3.2.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.2.1/13b015768e0d04849d2794e4c47eb02d01a0de32/plexus-utils-3.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.glassfish:javax.json:1.0.4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.glassfish" artifactId="javax.json" version="1.0.4" baseVersion="1.0.4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.jetbrains:annotations:24.1.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.jetbrains" artifactId="annotations" version="24.1.0" baseVersion="24.1.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.1.0/7af6a669488450c4a07c2c3254e2151df42d7d04/annotations-24.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.jline:jline-reader:3.12.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.jline" artifactId="jline-reader" version="3.12.1" baseVersion="3.12.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.jline:jline-reader:3.20.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.jline" artifactId="jline-reader" version="3.20.0" baseVersion="3.20.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/8f15415b022a25b473e8e16c28ae913186ffb9c4/jline-reader-3.20.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.jline:jline-terminal:3.12.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.jline" artifactId="jline-terminal" version="3.12.1" baseVersion="3.12.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.jline:jline-terminal:3.20.0" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.jline" artifactId="jline-terminal" version="3.20.0" baseVersion="3.20.0" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.20.0/d0ddcc708ddf527a3454c941b7b9225cc83a15ff/jline-terminal-3.20.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl-glfw:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl-glfw" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/d3ad4df38e400b8afba1de63f84338809399df5b/lwjgl-glfw-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl-jemalloc:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl-jemalloc" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.2/ee8e57a79300f78294576d87c4a587f8c99402e2/lwjgl-jemalloc-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl-openal:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl-openal" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.2/2b772a102b0a11ee5f2109a5b136f4dc7c630827/lwjgl-openal-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl-opengl:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl-opengl" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.2/6ac5bb88b44c43ea195a570aab059f63da004cd8/lwjgl-opengl-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl-stb:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl-stb" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f/lwjgl-stb-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl-tinyfd:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl-tinyfd" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9/lwjgl-tinyfd-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl:lwjgl:3.2.2" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.lwjgl" artifactId="lwjgl" version="3.2.2" baseVersion="3.2.2" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.2/8ad6294407e15780b43e84929c40e4c5e997972e/lwjgl-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.openjdk.nashorn:nashorn-core:15.3" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.openjdk.nashorn" artifactId="nashorn-core" version="15.3" baseVersion="15.3" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjdk.nashorn/nashorn-core/15.3/43977e804697048fc8d81d333a36c17d07a5b3dd/nashorn-core-15.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-analysis:9.6" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-analysis" version="9.6" baseVersion="9.6" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.6/9ce6c7b174bd997fc2552dff47964546bd7a5ec3/asm-analysis-9.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-analysis:9.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-analysis" version="9.7" baseVersion="9.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7/e4a258b7eb96107106c0599f0061cfc1832fe07a/asm-analysis-9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-analysis:9.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-analysis" version="9.7.1" baseVersion="9.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7.1/f97a3b319f0ed6a8cd944dc79060d3912a28985f/asm-analysis-9.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-commons:9.6" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-commons" version="9.6" baseVersion="9.6" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.6/f1a9e5508eff490744144565c47326c8648be309/asm-commons-9.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-commons:9.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-commons" version="9.7" baseVersion="9.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7/e86dda4696d3c185fcc95d8d311904e7ce38a53f/asm-commons-9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-commons:9.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-commons" version="9.7.1" baseVersion="9.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7.1/406c6a2225cfe1819f102a161e54cc16a5c24f75/asm-commons-9.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-tree:9.6" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-tree" version="9.6" baseVersion="9.6" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.6/c0cdda9d211e965d2a4448aa3fd86110f2f8c2de/asm-tree-9.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-tree:9.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-tree" version="9.7" baseVersion="9.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7/e446a17b175bfb733b87c5c2560ccb4e57d69f1a/asm-tree-9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-tree:9.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-tree" version="9.7.1" baseVersion="9.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7.1/3a53139787663b139de76b627fca0084ab60d32c/asm-tree-9.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-util:9.6" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-util" version="9.6" baseVersion="9.6" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.6/f77caf84eb93786a749b2baa40865b9613e3eaee/asm-util-9.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-util:9.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-util" version="9.7" baseVersion="9.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.7/c0655519f24d92af2202cb681cd7c1569df6ead6/asm-util-9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-util:9.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm-util" version="9.7.1" baseVersion="9.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.7.1/9e23359b598ec6b74b23e53110dd5c577adf2243/asm-util-9.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm:9.6" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm" version="9.6" baseVersion="9.6" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.6/aa205cf0a06dbd8e04ece91c0b37c3f5d567546a/asm-9.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm:9.7" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm" version="9.7" baseVersion="9.7" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7/73d7b3086e14beb604ced229c302feff6449723/asm-9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.ow2.asm:asm:9.7.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.ow2.asm" artifactId="asm" version="9.7.1" baseVersion="9.7.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7.1/f0ed132a49244b042cd0e15702ab9f2ce3cc8436/asm-9.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.quiltmc:quilt-config:1.3.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.quiltmc" artifactId="quilt-config" version="1.3.1" baseVersion="1.3.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quiltmc/quilt-config/1.3.1/c0e275ff3e33dc879e0719933a30180993f7cce2/quilt-config-1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.quiltmc:quilt-json5:1.0.4+final" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.quiltmc" artifactId="quilt-json5" version="1.0.4+final" baseVersion="1.0.4+final" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quiltmc/quilt-json5/1.0.4+final/c7705a5fca3d4e85a8c8a1fc0c6c5758c0a0325c/quilt-json5-1.0.4+final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.quiltmc:quilt-loader:0.27.1-beta.1" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.quiltmc" artifactId="quilt-loader" version="0.27.1-beta.1" baseVersion="0.27.1-beta.1" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quiltmc/quilt-loader/0.27.1-beta.1/dec151d604957ce29984e53dc1f9dd4d5c4395c7/quilt-loader-0.27.1-beta.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.quiltmc/quilt-loader/0.27.1-beta.1/d68e1bda2b72c5c914954191588a7eae4b8f69c4/quilt-loader-0.27.1-beta.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:slf4j-api:1.8.0-beta4" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.slf4j" artifactId="slf4j-api" version="1.8.0-beta4" baseVersion="1.8.0-beta4" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.slf4j:slf4j-simple:1.7.30" type="java-imported" external-system-id="GRADLE">
+      <properties groupId="org.slf4j" artifactId="slf4j-simple" version="1.7.30" baseVersion="1.7.30" />
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.30/e606eac955f55ecf1d8edcccba04eb8ac98088dd/slf4j-simple-1.7.30.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl/>
+            <SplitterProportionsDataImpl />
           </splitter-proportions>
-          <settings/>
+          <settings />
         </UIState>
       </state>
       <state key="Copyright.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl/>
+            <SplitterProportionsDataImpl />
           </splitter-proportions>
         </UIState>
       </state>
@@ -87,7 +1995,7 @@
             <SplitterProportionsDataImpl>
               <option name="proportions">
                 <list>
-                  <option value="0.2"/>
+                  <option value="0.2" />
                 </list>
               </option>
             </SplitterProportionsDataImpl>
@@ -98,9 +2006,9 @@
       <state key="ScopeChooserConfigurable.UI">
         <UIState>
           <splitter-proportions>
-            <SplitterProportionsDataImpl/>
+            <SplitterProportionsDataImpl />
           </splitter-proportions>
-          <settings/>
+          <settings />
         </UIState>
       </state>
     </states>

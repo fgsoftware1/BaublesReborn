@@ -9,7 +9,6 @@ import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;
 
 public class PacketHandler {
-
     public static SimpleChannel INSTANCE;
     private static int ID = 0;
 

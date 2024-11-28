@@ -2,9 +2,6 @@ plugins {
     id 'dev.architectury.loom' version '1.6-SNAPSHOT' apply false
     id 'architectury-plugin' version '3.4-SNAPSHOT'
     id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
-    id 'maven-publish'
-    id 'com.matthewprenger.cursegradle' version '1.4.0'
-    id 'com.modrinth.minotaur' version '2.+'
 }
 
 architectury {
@@ -51,47 +48,5 @@ subprojects {
 
     tasks.withType(JavaCompile).configureEach {
         it.options.release = 17
-    }
-}
-
-subprojects {
-    publishing {
-        repositories {
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/OWNER/REPOSITORY")
-                credentials {
-                    username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
-                    password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
-                }
-            }
-        }
-    }
-}
-
-project(':forge') {
-    curseforge {
-        apiKey = project.findProperty("curseforge.token") ?: System.getenv("CURSEFORGE_TOKEN")
-        project {
-            id = 'your_curseforge_project_id'
-            releaseType = 'release'
-            addGameVersion rootProject.minecraft_version
-            mainArtifact(remapJar) {
-                displayName = "YourModName-${rootProject.mod_version}"
-            }
-            addArtifact(apiJar) {
-                displayName = "YourModName-${rootProject.mod_version}-sources"
-            }
-        }
-    }
-
-    modrinth {
-        token = project.findProperty("modrinth.token") ?: System.getenv("MODRINTH_TOKEN")
-        projectId = 'your_modrinth_project_id'
-        versionNumber = rootProject.mod_version
-        versionType = 'release'
-        uploadFile = remapJar
-        gameVersions = [rootProject.minecraft_version]
-        loaders = ['forge']
     }
 }

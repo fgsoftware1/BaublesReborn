@@ -236,7 +236,7 @@ public class PlayerExpandedContainer extends AbstractContainerMenu {
                 return ItemStack.EMPTY;
             }
 
-            if (stackInSlot.isEmpty() && !baubles.isEventBlocked() && slot instanceof SlotBauble && itemStack.getCapability(CapabilityBaubles.ITEM_BAUBLE, null).isPresent()) {
+            if (stackInSlot.isEmpty() && baubles.isEventBlocked() && slot instanceof SlotBauble && itemStack.getCapability(CapabilityBaubles.ITEM_BAUBLE, null).isPresent()) {
                 var finalItemStack = itemStack;
                 itemStack.getCapability(CapabilityBaubles.ITEM_BAUBLE, null).ifPresent((iBauble -> iBauble.onEquipped(playerIn, finalItemStack)));
             }

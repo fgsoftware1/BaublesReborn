@@ -19,7 +19,6 @@ import org.lwjgl.opengl.GL11;
 
 import javax.annotation.Nonnull;
 
-@SuppressWarnings("rawtypes")
 public class BaublesButton extends AbstractButton {
     private final AbstractContainerScreen parentGui;
     private final Minecraft minecraft;

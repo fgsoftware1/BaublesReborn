@@ -45,7 +45,9 @@ public class PlayerExpandedScreen extends EffectRenderingInventoryScreen<PlayerE
         renderBackground(poseStack);
         super.render(poseStack, mouseX, mouseY, delta);
         renderTooltip(poseStack, mouseX, mouseY);
-    }    private final static HashMap<String, Object> guistate = PlayerExpandedScreen.guistate;
+    }
+
+    private final static HashMap<String, Object> guistate = PlayerExpandedScreen.guistate;
 
     @Override
     protected void renderBg(@Nonnull PoseStack poseStack, float delta, int mouseX, int mouseY) {
@@ -76,8 +78,6 @@ public class PlayerExpandedScreen extends EffectRenderingInventoryScreen<PlayerE
     private void resetGuiLeft() {
         this.leftPos = (this.width - this.imageWidth) / 2;
     }
-
-
 
 
 }
