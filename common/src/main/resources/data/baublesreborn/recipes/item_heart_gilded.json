@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GBG",
+    "BHB",
+    "GBG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "H": {
+      "item": "baublesreborn:item_heart_crimson"
+    }
+  },
+  "result": {
+    "item": "baublesreborn:item_heart_gilded"
+  }
+}

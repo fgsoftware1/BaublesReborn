@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EYE",
+    "YHY",
+    "EYE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "Y": {
+      "item": "minecraft:ender_eye"
+    },
+    "H": {
+      "item": "baublesreborn:item_heart_gilded"
+    }
+  },
+  "result": {
+    "item": "baublesreborn:item_heart_verdant"
+  }
+}

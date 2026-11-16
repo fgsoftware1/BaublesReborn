@@ -1,0 +1,13 @@
+// Loader-independent code and resources.
+// Only vanilla Minecraft is available here; do not reference Forge classes.
+plugins {
+    id 'org.spongepowered.gradle.vanilla'
+}
+
+minecraft {
+    version(minecraft_version)
+}
+
+dependencies {
+    compileOnly "org.spongepowered:mixin:${mixin_version}"
+}

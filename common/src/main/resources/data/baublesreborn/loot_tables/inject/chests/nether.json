@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 55
+        },
+        {
+          "type": "minecraft:item",
+          "name": "baublesreborn:item_heart_shard",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "baublesreborn:item_heart_crimson",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "baublesreborn:item_heart_gilded",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

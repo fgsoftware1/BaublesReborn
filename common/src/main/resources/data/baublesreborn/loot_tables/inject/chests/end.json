@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "baublesreborn:item_heart_crimson",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "baublesreborn:item_heart_gilded",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "baublesreborn:item_heart_verdant",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

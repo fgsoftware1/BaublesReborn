@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "baublesreborn:item_canister"
+    },
+    {
+      "item": "baublesreborn:item_heart_verdant"
+    }
+  ],
+  "result": {
+    "item": "baublesreborn:item_canister_green"
+  }
+}
